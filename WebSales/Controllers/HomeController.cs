@@ -17,7 +17,9 @@ namespace WebSales.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Web Sales App Constructed from C# by Roger Braun";
+            ViewData["Developer"] = "Roger Braun";
+            ViewData["email"] = "rogerbraun@gmail.com";
 
             return View();
         }
@@ -25,6 +27,7 @@ namespace WebSales.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
+            
 
             return View();
         }
