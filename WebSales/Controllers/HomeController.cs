@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebSales.Models;
+using WebSales.Models.ViewModels;
 
 namespace WebSales.Controllers
 {
