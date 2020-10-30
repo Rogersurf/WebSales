@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using WebSales.Data;
 using WebSales.Models;
+using WebSales.Services;
 
 namespace WebSales
 {
@@ -38,6 +39,8 @@ namespace WebSales
                         builder.MigrationsAssembly("WebSales")));
 
             services.AddScoped<SeedingService>();
+
+            services.AddScoped<SellerService>();
 
         }
 
