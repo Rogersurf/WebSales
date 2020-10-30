@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using WebSales.Models;
 
-namespace WebSales.Data
+namespace WebSales.Models
 {
     public class WebSalesContext : DbContext
     {

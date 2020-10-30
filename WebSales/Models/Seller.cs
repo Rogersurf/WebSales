@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using WebSales.Models;
 using System.Linq;
 
 namespace WebSales.Models
